@@ -5,15 +5,15 @@ import Contact from "./Contact";
 import Footer from "./Footer";
 
 const Layout = ({ children }: PropsWithChildren) => {
-	return (
-		<div className="min-h-screen overflow-hidden h-fit">
-			<Header />
-			<Navbar />
-			{children}
-			<Contact />
-			<Footer />
-		</div>
-	);
+  return (
+    <div className="min-h-screen overflow-hidden h-fit">
+      <Header />
+      <Navbar />
+      {children}
+      <Contact />
+      <Footer />
+    </div>
+  );
 };
 
 export default Layout;
