@@ -89,7 +89,7 @@ const Navbar = () => {
 					}
 				>
 					<div
-						className="flex w-1/2 bg-white rounded-full items-center px-2 py-4"
+						className="flex bg-white rounded-full items-center px-2 py-4"
 						onClick={(e) => {
 							e.stopPropagation();
 						}}
