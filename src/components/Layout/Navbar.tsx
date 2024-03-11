@@ -141,6 +141,7 @@ const Navbar = () => {
               type="text"
               className="outline-none h-full w-full"
               autoFocus
+			  placeholder="Tìm kiếm..."
             />
             <RiSearch2Line className="text-2xl text-gray-400" />
           </div>
